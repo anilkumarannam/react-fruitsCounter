@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  height: 100vh;
+  padding: 100px;
+  background-color: #ffd569;
+  justify-content: center;
+  align-items: center;
+}
+
+.fruit-box {
+  height: 80vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  border-radius: 20px;
+}
+.fruits {
+  display: flex;
+}
+.fruit {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 20vw;
+  margin-bottom: 20px;
+}
+button {
+  width: 120px;
+  height: 36px;
+  background-color: #007bff;
+  border: 0px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
